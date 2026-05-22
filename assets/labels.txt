@@ -1,0 +1,4 @@
+0 N_Deficiency
+1 P_Deficiency
+2 K_Deficiency
+3 Healthy
