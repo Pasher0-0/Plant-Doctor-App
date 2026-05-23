@@ -1,0 +1,12 @@
+1. background_remove.py
+>> python background_remove.py --input "Folder Image Name"
+output folder: "Folder Image Name"_no_bg
+
+2. white_backgruond.py 
+>> python white_backgruond.py ""Folder Image Name"_no_bg" -o "Folder Image Name_white_bg"
+output folder: "Folder Image Name_white_bg"
+
+3. color_reduce.py
+>> python color_reduce.py --input-dir "Folder Image Name_white_bg" --output-dir "Folder Image Name_reduced" --k 5
+--k "number" mean: how much color you want in image | --k 5 mean There are only 5 colors in the picture.
+output folder: "Folder Image Name_reduced"
