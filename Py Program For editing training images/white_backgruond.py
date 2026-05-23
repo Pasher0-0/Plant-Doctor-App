@@ -51,3 +51,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+#python white_backgruond.py N_no_bg -o test_white_bg
